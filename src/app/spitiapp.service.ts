@@ -15,8 +15,9 @@ export class SpitiappService {
 
       const url = `https://api.spotify.com/v1/${query}`;
 
+  
       const headers = new HttpHeaders({
-        'Authorization' : 'Bearer BQA84xTO_H-3s4HUw8GwnhvtzXHQunM14zr0bL5dm0XRrOSldXz034E65sNKQRjvBCkr3pcx-BsZ-pYm85Y'
+        'Authorization' : 'Aquí va la autorización generada en spotify'
         });
 
        return this.http.get(url, {headers});
